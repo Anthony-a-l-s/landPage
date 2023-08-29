@@ -78,6 +78,9 @@ i {
     width: 168px;
     margin-top: 46px;
   }
+  .header-logo img {
+    width: 80%;
+  }
   .header-button {
     display: none;
   }
@@ -330,13 +333,9 @@ i {
   opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
-  .btn-whatsapp img {
-    max-width: 64px;
-  }
-}
 .credits {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -345,10 +344,21 @@ i {
   color: #fff;
 }
 .credits p {
+  max-width: 1440px;
   font-size: 10px;
   color: #fff;
 }
 
+@media screen and (max-width: 1131px) {
+  .credits p {
+    font-size: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn-whatsapp img {
+    max-width: 64px;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
