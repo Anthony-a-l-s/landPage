@@ -12,7 +12,7 @@
     content: '';
     display: block;
     position: absolute;
-    background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+    background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #353535), url("../assets/mulher-lavando-vista-lateral-do-cachorro.jpg");
     left: 0;
     top: 0;
     width: 100%;
@@ -21,7 +21,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%, 0;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .hero {
@@ -277,3 +277,16 @@
 
 }
 
+.credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 0;
+    gap: 24px;
+    color: $white-normal;
+    p{
+        font-size: 10px;
+        color: $white-normal;
+    }
+}
