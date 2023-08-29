@@ -363,8 +363,7 @@ i {
 }
 @media screen and (max-width: 570px) {
   .credits p {
-    font-size: 4px;
-    max-width: 350px;
+    font-size: 3px;
   }
 }
 body {
